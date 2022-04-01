@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link  } from 'react-router-dom';
-import { MdSearch, MdMenu,MdDirectionsBike, MdDirectionsRun, MdOutlineShoppingBasket} from 'react-icons/md';
+import { Link } from 'react-router-dom';
+import { MdSearch, MdMenu, MdDirectionsBike, MdDirectionsRun, MdOutlineShoppingBasket } from 'react-icons/md';
 import { Container, Header, Profile, Skills } from './styles';
 import avatar from '../../assets/images/avatar.jpg';
 

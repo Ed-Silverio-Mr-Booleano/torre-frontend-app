@@ -1,5 +1,5 @@
 import React from 'react';
-import {  MdOutlineClear ,MdVisibility, MdDirectionsBike, MdVerified} from 'react-icons/md'
+import { MdOutlineClear ,MdVisibility, MdDirectionsBike, MdVerified } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import avatar from '../../assets/images/avatar.jpg';
 
