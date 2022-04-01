@@ -47,14 +47,17 @@ export default class Home extends Component {
                <h1>Skills and interests:</h1>
                <div>
                  <MdDirectionsBike size={23} color="#c1c1c1" />
-                 <p>Master / Influencer</p>
+   
+                 { users.map(user =>(
+                 <p key={user.id}>{user.role}</p>
+                 ))}
                </div>
    
                <div>
-                  <Link to="skill">
-                    
+                  
+                  <Link to="skill">      
                       { users.map(user =>(
-                        <span key={user.id}>{user.Skills.id}</span>
+                        user.skills.map(skill =>(<span>{skill.skill}</span>) )
                       ))}
                   </Link>
                   
