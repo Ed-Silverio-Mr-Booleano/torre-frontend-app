@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link  } from 'react-router-dom';
-import { MdSearch, MdMenu, MdOutlineClear,MdDirectionsBike, MdDirectionsRun, MdOutlineShoppingBasket} from 'react-icons/md'
+import { MdSearch, MdMenu,MdDirectionsBike, MdDirectionsRun, MdOutlineShoppingBasket} from 'react-icons/md';
 import { Container, Header, Profile, Skills } from './styles';
 import avatar from '../../assets/images/avatar.jpg';
 
-function Home() {
+export default function Home() {
     return (
       <Container>
         <Header>
@@ -67,5 +67,3 @@ function Home() {
       
     );
 }
-
-export default Home;

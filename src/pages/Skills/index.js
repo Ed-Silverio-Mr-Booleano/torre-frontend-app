@@ -5,7 +5,7 @@ import avatar from '../../assets/images/avatar.jpg';
 
 import { Container, Header, People } from './styles';
 
-function Skills() {
+export default function Skills() {
   return (
     <Container>
         <Header>
@@ -92,4 +92,3 @@ function Skills() {
   );
 }
 
-export default Skills;
